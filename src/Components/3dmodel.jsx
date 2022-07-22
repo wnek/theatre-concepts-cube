@@ -11,7 +11,7 @@ export default function Model({ ...props }) {
   return (
     <group ref={group} {...props} dispose={null}>
       <e.mesh
-        uniqueName="Box"
+        uniqueName="The Box"
         geometry={nodes.Cube.geometry}
         material={materials.Material}
       />

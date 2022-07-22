@@ -59,7 +59,9 @@ function Controls() {
 }
 
 export default function App() {
-  const sheet = getProject('Box', { state: stateTheatre }).sheet('Scene');
+  const sheet = getProject('The Jumping Box', { state: stateTheatre }).sheet(
+    'The Jumpidy Jump'
+  );
 
   useLayoutEffect(() => {
     // Play it on load
