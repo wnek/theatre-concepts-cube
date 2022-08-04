@@ -80,9 +80,9 @@ export default function App() {
       }}
       shadows
     >
-      <color attach="background" args={['#1B1D21']} />
+      <color attach="background" args={['#606570']} />
       <SheetProvider sheet={sheet}>
-        <fog attach="fog" color="#1B1D21" near={1} far={10} />
+        {/* <fog attach="fog" color="#1B1D21" near={1} far={10} /> */}
         <ambientLight intensity={0.5} color={'#ffffff'} />
         <spotLight
           intensity={5}
