@@ -80,9 +80,9 @@ export default function App() {
       }}
       shadows
     >
-      <color attach="background" args={['#34404D']} />
+      <color attach="background" args={['#1B1D21']} />
       <SheetProvider sheet={sheet}>
-        <fog attach="fog" color="#34404D" near={1} far={10} />
+        <fog attach="fog" color="#1B1D21" near={1} far={10} />
         <ambientLight intensity={0.5} color={'#ffffff'} />
         <spotLight
           intensity={5}
@@ -95,7 +95,7 @@ export default function App() {
           color={'#E3C87E'}
         />
 
-        <Dots />
+        {/* <Dots /> */}
 
         <InstancedModel />
 
