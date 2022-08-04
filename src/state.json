@@ -39,7 +39,7 @@
                   },
                   {
                     "id": "94rXsrZuMu",
-                    "position": 1.2,
+                    "position": 0.633,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -51,7 +51,7 @@
                   },
                   {
                     "id": "YGTMGsJOlK",
-                    "position": 1.567,
+                    "position": 1,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -59,11 +59,23 @@
                       0.5,
                       0
                     ],
-                    "value": 1
+                    "value": 0.8
+                  },
+                  {
+                    "id": "MuAAVkKVnJ",
+                    "position": 1.267,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0.8
                   },
                   {
                     "id": "AcnhgnUryl",
-                    "position": 1.7,
+                    "position": 1.333,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -75,7 +87,7 @@
                   },
                   {
                     "id": "WWCNl2lKK_",
-                    "position": 2,
+                    "position": 1.7,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -105,7 +117,7 @@
                   },
                   {
                     "id": "qZywYpijd6",
-                    "position": 1.2,
+                    "position": 0.633,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -117,7 +129,7 @@
                   },
                   {
                     "id": "GpdoGVuMdr",
-                    "position": 1.567,
+                    "position": 1,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -125,10 +137,34 @@
                       0.5,
                       0
                     ],
-                    "value": 1
+                    "value": 1.1
+                  },
+                  {
+                    "id": "qMeOZebApQ",
+                    "position": 1.267,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 1.3
                   },
                   {
                     "id": "ofYmhQAt1i",
+                    "position": 1.333,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0.3
+                  },
+                  {
+                    "id": "WkMj09eTGz",
                     "position": 1.7,
                     "connectedRight": true,
                     "handles": [
@@ -137,11 +173,11 @@
                       0.5,
                       0
                     ],
-                    "value": 0.6
+                    "value": 1.2
                   },
                   {
-                    "id": "WkMj09eTGz",
-                    "position": 2,
+                    "id": "-mvB0u07gx",
+                    "position": 1.9,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -171,7 +207,7 @@
                   },
                   {
                     "id": "Ale0ebz0Tl",
-                    "position": 1.2,
+                    "position": 0.633,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -183,7 +219,7 @@
                   },
                   {
                     "id": "si0zDfUAHa",
-                    "position": 1.567,
+                    "position": 1,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -191,11 +227,23 @@
                       0.5,
                       0
                     ],
-                    "value": 1
+                    "value": 0.8
+                  },
+                  {
+                    "id": "n6jcc8Vyvq",
+                    "position": 1.267,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 0.8
                   },
                   {
                     "id": "U3FUcubc8s",
-                    "position": 1.7,
+                    "position": 1.333,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -207,7 +255,7 @@
                   },
                   {
                     "id": "v24JFdCB8V",
-                    "position": 2,
+                    "position": 1.7,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -225,7 +273,7 @@
                 "keyframes": [
                   {
                     "id": "66bQewJpVH",
-                    "position": 1.2,
+                    "position": 0.633,
                     "connectedRight": true,
                     "handles": [
                       0.5,
@@ -237,19 +285,19 @@
                   },
                   {
                     "id": "RDXMzuSl19",
-                    "position": 1.333,
+                    "position": 1,
                     "connectedRight": true,
                     "handles": [
-                      0,
-                      1.0139312734439572,
+                      0.37221618643670135,
+                      1.0296511381485147,
                       1,
                       -0.012634657613008811
                     ],
-                    "value": 0.8
+                    "value": 8
                   },
                   {
                     "id": "bRU-dFnYEb",
-                    "position": 1.567,
+                    "position": 1.3,
                     "connectedRight": true,
                     "handles": [
                       1,
@@ -264,30 +312,35 @@
               "JyjwKqEtaD": {
                 "type": "BasicKeyframedTrack",
                 "__debugName": "The Box:[\"rotation\",\"z\"]",
+                "keyframes": []
+              },
+              "OQf5JK7LUS": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "The Box:[\"rotation\",\"y\"]",
                 "keyframes": [
                   {
-                    "id": "ofJj-hKLtY",
-                    "position": 1.2,
+                    "id": "qKy9Z0FJCM",
+                    "position": 0.633,
                     "connectedRight": true,
                     "handles": [
                       0.5,
                       1,
-                      0.5,
-                      0
+                      0.3521428571428572,
+                      0.07116620752984387
                     ],
                     "value": 0
                   },
                   {
-                    "id": "803Iosv3ha",
-                    "position": 1.567,
+                    "id": "-bItG0elj-",
+                    "position": 1.333,
                     "connectedRight": true,
                     "handles": [
-                      0.5,
-                      1,
+                      0.34157366071428574,
+                      0.9921946740128559,
                       0.5,
                       0
                     ],
-                    "value": 12.56
+                    "value": 4.72
                   }
                 ]
               }
@@ -297,7 +350,8 @@
               "[\"scale\",\"y\"]": "aQn4KtfC_2",
               "[\"scale\",\"z\"]": "P3jQHRRnmc",
               "[\"position\",\"y\"]": "S3e39aj2o-",
-              "[\"rotation\",\"z\"]": "JyjwKqEtaD"
+              "[\"rotation\",\"z\"]": "JyjwKqEtaD",
+              "[\"rotation\",\"y\"]": "OQf5JK7LUS"
             }
           }
         }
@@ -306,6 +360,7 @@
   },
   "definitionVersion": "0.4.0",
   "revisionHistory": [
+    "pvib3VFpmMwg_1CZ",
     "yZo2UWX_Fh2X9Q28",
     "YxtrVjb8MO0QkS9v",
     "t5WMARM71toiG3kL"
