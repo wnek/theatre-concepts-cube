@@ -1,6 +1,6 @@
 import { getProject } from '@theatre/core';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Point, Points } from '@react-three/drei';
+import { OrbitControls, Point, Points, Torus } from '@react-three/drei';
 import { proxy, useSnapshot } from 'valtio';
 import { editable as e, SheetProvider } from '@theatre/r3f';
 import InstancedModel from '/src/Components/3dmodel';
@@ -26,7 +26,7 @@ function Dots() {
     <instancedMesh
       ref={ref}
       args={[null, null, 10000]}
-      position={[0, -0.4, 0]}
+      position={[0, 0, 0]}
       rotation={[-Math.PI / 2, 0, 0]}
       scale={[0.1, 0.1, 0.1]}
     >
@@ -83,21 +83,39 @@ export default function App() {
       <color attach="background" args={['#34404D']} />
       <SheetProvider sheet={sheet}>
         <fog attach="fog" color="#34404D" near={1} far={10} />
-        <ambientLight intensity={0.4} color={'#ffffff'} />
+        <ambientLight intensity={0.5} color={'#ffffff'} />
         <spotLight
-          intensity={10}
+          intensity={5}
           angle={0.1}
           position={[20, 30, 30]}
           penumbra={1}
           castShadow
           decay={2}
-          power={15}
+          power={5}
           color={'#E3C87E'}
         />
 
         <Dots />
 
         <InstancedModel />
+
+        {/* <e.Torus
+          uniqueName="Torus123"
+          args={[1, 0.01, 16, 100]}
+          rotation={[Math.PI / 2, 0, 0]}
+        >
+          <meshBasicMaterial color="white" />
+        </e.Torus> */}
+
+        <e.mesh uniqueName="Torus" rotation={[Math.PI / 2, 0, 0]}>
+          <torusGeometry args={[1, 0.01, 16, 100]} />
+          <meshPhongMaterial
+            uniqueName="PhongMaterial11"
+            transparent
+            color="white"
+            opacity={0.1}
+          />
+        </e.mesh>
         <Controls />
       </SheetProvider>
     </Canvas>

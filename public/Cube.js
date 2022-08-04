@@ -10,7 +10,9 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF('/cube-transformed.glb')
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.Cube.geometry} material={materials.Material} />
+      <group position={[0, 0, 0.19]} scale={0.04}>
+        <mesh geometry={nodes.Cube.geometry} material={materials['Material.005']} position={[-0.09, -0.01, -4.37]} />
+      </group>
     </group>
   )
 }
