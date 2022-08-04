@@ -99,15 +99,7 @@ export default function App() {
 
         <InstancedModel />
 
-        {/* <e.Torus
-          uniqueName="Torus123"
-          args={[1, 0.01, 16, 100]}
-          rotation={[Math.PI / 2, 0, 0]}
-        >
-          <meshBasicMaterial color="white" />
-        </e.Torus> */}
-
-        <e.mesh uniqueName="Torus" rotation={[Math.PI / 2, 0, 0]}>
+        {/* <e.mesh uniqueName="Torus" rotation={[Math.PI / 2, 0, 0]}>
           <torusGeometry args={[1, 0.01, 16, 100]} />
           <meshPhongMaterial
             uniqueName="PhongMaterial11"
@@ -115,7 +107,7 @@ export default function App() {
             color="white"
             opacity={0.1}
           />
-        </e.mesh>
+        </e.mesh> */}
         <Controls />
       </SheetProvider>
     </Canvas>
